@@ -32,7 +32,7 @@ describe('Harpy', function () {
 
   it.skip('should only have room for three meals in its bag', function() {
     var harpy = new Harpy('Celæno');
-    var hero = new Hero({name: 'Jason', trinkets: ['', 'pearl', 'emerald', 'topaz']});
+    var hero = new Hero({name: 'Jason', rations: ['jelly beans', 'chicken', 'pancakes', 'bread']});
     harpy.stealFood(hero);
     harpy.stealFood(hero);
     harpy.stealFood(hero);
