@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 var Hero = require('./hero');
-var Harpy = require('.harpy');
+var Harpy = require('./harpy');
 
 describe('hero', function () {
 
